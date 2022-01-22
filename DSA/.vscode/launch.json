@@ -3,6 +3,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch cyclic",
+            "request": "launch",
+            "mainClass": "com.search_sort.cyclic_sort.cyclic",
+            "projectName": "DSA_d3e9d16"
+        },
+        {
+            "type": "java",
+            "name": "Launch insertion",
+            "request": "launch",
+            "mainClass": "com.search_sort.selection_insertion.insertion",
+            "projectName": "DSA_d3e9d16"
+        },
+        {
+            "type": "java",
+            "name": "Launch selction",
+            "request": "launch",
+            "mainClass": "com.search_sort.selection_insertion.selction",
+            "projectName": "DSA_d3e9d16"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubblesort",
+            "request": "launch",
+            "mainClass": "com.search_sort.bubble.bubblesort",
+            "projectName": "DSA_d3e9d16"
+        },
+        {
+            "type": "java",
+            "name": "Launch Examples",
+            "request": "launch",
+            "mainClass": "com.stack_queue.Examples",
+            "projectName": "DSA_d3e9d16"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackExample",
+            "request": "launch",
+            "mainClass": "com.stack_queue.StackExample",
+            "projectName": "DSA_d3e9d16"
+        },
+        {
+            "type": "java",
             "name": "Launch Current file",
             "request": "launch",
             "mainClass": "${fileBasename}"
