@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch binary",
+            "request": "launch",
+            "mainClass": "com.search_sort.binary_search.binary",
+            "projectName": "DSA_d3e9d16"
+        },
+        {
+            "type": "java",
             "name": "Launch cyclic",
             "request": "launch",
             "mainClass": "com.search_sort.cyclic_sort.cyclic",
