@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch single_element",
+            "request": "launch",
+            "mainClass": "single_element",
+            "projectName": "DSA_db76a58a"
+        },
+        {
+            "type": "java",
+            "name": "Launch all_mising_numbers",
+            "request": "launch",
+            "mainClass": "com.search_sort.cyclic_sort.all_mising_numbers",
+            "projectName": "DSA_d3e9d16"
+        },
+        {
+            "type": "java",
+            "name": "Launch missing_number",
+            "request": "launch",
+            "mainClass": "com.search_sort.cyclic_sort.missing_number",
+            "projectName": "DSA_d3e9d16"
+        },
+        {
+            "type": "java",
             "name": "Launch binary",
             "request": "launch",
             "mainClass": "com.search_sort.binary_search.binary",

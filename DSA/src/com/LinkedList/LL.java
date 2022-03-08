@@ -9,6 +9,26 @@ public class LL{
         this.size = 0;
     }
 
+    public class Node{
+        int value;
+        Node next;
+        int index;
+
+        public Node(int value,Node next){
+            this.value = value;
+            this.next = next;
+        }
+
+        public Node(Node next, int value){
+            this.next = next;
+            this.value = value;
+        }
+
+        public Node(int value){
+            this.value = value;
+        }
+    }
+
     public void insertFirst(int val){
         Node node = new Node(val);
         node.next = head;
@@ -75,23 +95,5 @@ public class LL{
         System.out.println("END");
     }
 
-    public class Node{
-        int value;
-        Node next;
-        int index;
-
-        public Node(int value,Node next){
-            this.value = value;
-            this.next = next;
-        }
-
-        public Node(Node next, int value){
-            this.next = next;
-            this.value = value;
-        }
-
-        public Node(int value){
-            this.value = value;
-        }
-    }
+    
 }
